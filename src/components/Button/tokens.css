@@ -1,0 +1,62 @@
+/**
+ * Design tokens from Figma Design System file
+ * File: xfZ4IT0JiKhzNZzO2mtAVV
+ *
+ * Values traced from bound variables (Colors + Type Primitives collections).
+ */
+
+:root {
+  /* Brand / action */
+  --ds-color-button-primary: #0088ff;            /* Button/Primary */
+  --ds-color-button-primary-hover: #0073db;
+  --ds-color-button-destructive: #ff383c;        /* Button/Destructive */
+  --ds-color-button-destructive-hover: #e52e32;
+
+  /* Neutral fills (iOS-style translucent grays) */
+  --ds-color-fill-quaternary: rgba(116, 116, 128, 0.08);   /* Fills/Quaternary */
+  --ds-color-fill-quaternary-hover: rgba(116, 116, 128, 0.14);
+
+  /* Strokes */
+  --ds-color-stroke-tertiary: rgba(120, 120, 128, 0.16);   /* Fills/Tertiary stroke */
+  --ds-color-stroke-secondary: rgba(120, 120, 120, 0.20);  /* Outline - Secondary */
+
+  /* Labels */
+  --ds-color-label-primary: rgba(0, 0, 0, 0.88);
+  --ds-color-label-secondary: rgba(60, 60, 67, 0.60);
+  --ds-color-white: #ffffff;                    /* Grays/White */
+
+  /* Typography */
+  --ds-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --ds-font-weight-regular: 400;
+  --ds-font-weight-medium: 500;
+
+  /* Size: Small — Body/H8-Regular */
+  --ds-button-sm-height: 36px;
+  --ds-button-sm-padding-y: 8px;
+  --ds-button-sm-padding-x: 16px;
+  --ds-button-sm-radius: 6px;
+  --ds-button-sm-font-size: 14px;
+  --ds-button-sm-line-height: 20px;
+  --ds-button-sm-weight: var(--ds-font-weight-regular);
+
+  /* Size: Medium — Body/H8-Regular, taller padding */
+  --ds-button-md-height: 40px;
+  --ds-button-md-padding-y: 10px;
+  --ds-button-md-padding-x: 16px;
+  --ds-button-md-radius: 8px;
+  --ds-button-md-font-size: 14px;
+  --ds-button-md-line-height: 20px;
+  --ds-button-md-weight: var(--ds-font-weight-regular);
+
+  /* Size: Large — Body/H7-Medium */
+  --ds-button-lg-height: 52px;
+  --ds-button-lg-padding-y: 15px;
+  --ds-button-lg-padding-x: 20px;
+  --ds-button-lg-radius: 12px;
+  --ds-button-lg-font-size: 16px;
+  --ds-button-lg-line-height: 22px;
+  --ds-button-lg-weight: var(--ds-font-weight-medium);
+
+  /* Spacing */
+  --ds-button-gap: 4px;
+}
